@@ -9,7 +9,7 @@ public class MainApp {
 		ApplicationContext context = 
 	             new ClassPathXmlApplicationContext("Source.xml");
 
-	      Test obj = (Test) context.getBean("Test");
+	      Test obj = (Test) context.getBean("Essai");
 
 	      obj.getMessage();
 	}
